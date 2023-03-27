@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Module 2 Practice</title>
+    </head>
+    <body>
+        <!-- Module2: Prerecord #35 -->
+        <button onclick="JsClose()"> Click Me</button>
+
+
+
+        <script>
+            function JsAlert(){
+                alert("JS Practice Module 2 Prerecord Vedio 35")
+            }
+
+            function JsConfirm()
+            {
+             let  result=   confirm("Are You Sure?");
+             document.write(result);
+            }
+
+            function JsPrompt()
+            {
+                let result=prompt("Write your name");
+                document.write(result);
+            }
+            function JsOpen()
+            {
+                open();
+            }
+            function JsClose()
+            {
+                close();
+            }
+
+            setTimeout(function() {
+                alert("after 5 seconds")
+            }, 2000);
+        </script>
+    </body>
+</html>
