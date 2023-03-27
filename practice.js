@@ -6,3 +6,9 @@
 // var num=10;
 // var sum=num+20;
 // console.log(sum);
+
+
+// Module 2 : Practice Pre Record #35
+
+
+
