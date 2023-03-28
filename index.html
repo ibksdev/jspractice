@@ -6,6 +6,11 @@
         <!-- Module2: Prerecord #35 -->
         <button onclick="JsClose()"> Click Me</button>
 
+        <button onmouseout="myEvent('Mouse Out hoyeche')"> Mouse Out</button>
+
+        <!-- Module 2: #36 Navigator Object  -->
+
+
 
 
         <script>
@@ -33,9 +38,49 @@
                 close();
             }
 
-            setTimeout(function() {
-                alert("after 5 seconds")
-            }, 2000);
+            // setTimeout(function() {
+            //     alert("after 5 seconds")
+            // }, 2000);
+
+            // module 2 :#36 Navigator object
+
+            // let appCodeName=navigator.appCodeName;
+            // let appName= navigator.appName;
+            // let appVersion= navigator.appVersion;
+            // let  cokeEnable= navigator.cookieEnabled;
+            // let language= navigator.language;
+            // let online= navigator.online;
+
+
+            // document.write(appCodeName + "</br>");
+            // document.write(appName + "</br>");
+            // document.write(appVersion + "</br>");
+            // document.write(cokeEnable + "</br>");
+            // document.write(language + "</br>");
+            // document.write(online + "</br>");
+
+
+            // // 37: Navigator: GeoLocation
+
+            // navigator.geolocation.getCurrentPosition(function (position)
+            // {
+            //     let latitude=position.coords.latitude;
+            //     let longitude=position.coords.longitude;
+            //     let speed=position.coords.speed;
+
+
+            //     document.write("latitude = "+latitude+"</br>") ;
+            //     document.write("longitude = "+longitude+"</br>") ;
+            //     document.write("Speed = "+speed+"</br>") ;
+            // });
+
+
+            // #38:Common Events
+
+            function myEvent(msg)
+            {
+                console.log(msg);
+            }
         </script>
     </body>
 </html>
